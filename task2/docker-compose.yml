@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  mongo:
+    image: mongo:3.4.6
+  web:
+    build: .
+    command: python3 load.py
+    volumes:
+      - .:/code
+    depends_on:
+      - mongo

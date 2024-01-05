@@ -1,7 +1,8 @@
 repo_name: exister/interview_task_pure
 report_id: 8ce3db35dbc7c029e3c6f0e691239c9d
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-10T16:02:00+00:00'
+timestamp: '2024-01-05T08:52:46+00:00'
 requested_by: exister
 provider: github
 branch: master
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/exister/interview_task_pure
   detection_source: Repo Metadata
 - name: MongoDB
   description: The database for giant ideas
@@ -25,6 +27,7 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/exister/interview_task_pure/blob/master/task2/load.py
   detection_source: task2/load.py
   last_updated_by: Mikhail Kuznetsov
   last_updated_on: 2018-09-14 16:11:11.000000000 Z
@@ -37,6 +40,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/exister/interview_task_pure
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -46,6 +50,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/exister/interview_task_pure
   detection_source: Repo Metadata
 - name: Pillow
   description: Python Imaging Library
@@ -55,6 +60,7 @@ tools:
   category: Assets and Media
   sub_category: Image Processing and Management
   image_url: https://img.stackshare.io/service/2375/default_1f67b0ca7416a9f52beb655f90b5602d5ef74b75.jpg
+  detection_source_url: https://github.com/exister/interview_task_pure/blob/master/task2/requirements.txt
   detection_source: task2/requirements.txt
   last_updated_by: Mikhail Kuznetsov
   last_updated_on: 2018-09-14 16:11:11.000000000 Z
@@ -66,7 +72,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Shells
   image_url: https://img.stackshare.io/service/4477/820a0bb9a44fe5a1d640993ab1e6fd84_400x400.png
-  detection_source: task2/requirements.txt
+  detection_source_url: https://github.com/exister/interview_task_pure/blob/master/task1/requirements.txt
+  detection_source: task1/requirements.txt
   last_updated_by: Mikhail Kuznetsov
   last_updated_on: 2018-09-14 16:11:11.000000000 Z
 - name: Mongo
@@ -76,6 +83,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/3519/3wgIDj3j_normal.png
+  detection_source_url: https://github.com/exister/interview_task_pure/blob/master/task2/docker-compose.yml
   detection_source: task2/docker-compose.yml
   last_updated_by: Mikhail Kuznetsov
   last_updated_on: 2018-09-14 16:11:11.000000000 Z
